@@ -1,0 +1,74 @@
+body{
+    color:whitesmoke;
+    padding: 0px;
+    background-color: black;
+    font-family: Georgia, "Times New Roman", Times
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0rem 1rem;
+}
+
+.container{
+    border:1px solid; 
+   max-width: 50rem;
+   padding: 0px 2rem; 
+    margin: 2rem auto; 
+}
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+width: 200px;
+height: 40px;
+border-radius: 10px;
+}
+
+.name{
+    padding:10px;
+}
+   
+
+#address-form{
+    padding-top: 50px;
+}
+
+.address{
+    padding:10px;
+}
+
+.contact-form{
+    padding-top: 50px;
+}
+
+.input-div{
+    margin-bottom: 2rem;
+     display: flex;
+}
+
+.field-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;}
+
+   
+    
+    button {
+        font-size: 2rem;
+        margin: 0px auto;
+        display: block;
+        color: wite;
+        padding: 0.5rem 0.8rem;
+        border: 1px solid white;
+        background-color: #023de3;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 1px #0000;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+      }
